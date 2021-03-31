@@ -15,8 +15,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Dirty Tweaks -->
-    <string name="nezukoextra_title">Nezuko Extras</string>
-    <string name="nezukoextra_summary">Time to slay some demons.</string>
+    <string name="nezukoextra_title">नेजुको एक्स्ट्रास</string>
+    <string name="nezukoextra_summary">राक्षसों का वध करने का समय।</string>
     <!-- The Team -->
     <string name="dialog_team_title">The team</string>
     <string name="lead_title">Lead Developer</string>
@@ -80,7 +80,7 @@
     <string name="qs_bg_use_disco">QS tile disco</string>
     <string name="qs_bg_use_disco_summary">Make your QS Tiles colorful!</string>
     <!-- Navigation -->
-    <string name="buttons_title">Buttons</string>
+    <string name="buttons_title">बटन</string>
     <string name="buttons_summary">Configure volume rocker options</string>
     <string name="navigation_options_title">Navigation</string>
     <string name="navigation_options_summary">Configure navigation options</string>

@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Dirty Tweaks -->
-    <string name="nezukoextra_title">Nezuko Extras</string>
+    <string name="nezukoextra_title">Dodatki Nezuko</string>
     <string name="nezukoextra_summary">Time to slay some demons.</string>
     <!-- The Team -->
     <string name="dialog_team_title">The team</string>
@@ -26,99 +26,99 @@
     <string name="contributor_main_title">Maintainer/Contributor</string>
     <!-- Bottom navigation -->
     <string name="navigation_system_title">System</string>
-    <string name="navigation_lockscreen_title">Lockscreen</string>
-    <string name="navigation_statusbar_title">Statusbar</string>
-    <string name="navigation_hardware_title">Hardware</string>
-    <string name="navigation_multitasking_title">Multitasking</string>
+    <string name="navigation_lockscreen_title">Ekran blokady</string>
+    <string name="navigation_statusbar_title">Pasek stanu</string>
+    <string name="navigation_hardware_title">Sprzęt</string>
+    <string name="navigation_multitasking_title">Wielozadaniowość</string>
     <!-- Categories -->
     <!-- System -->
-    <string name="miscellaneous_title">Miscellaneous</string>
+    <string name="miscellaneous_title">Inne</string>
     <string name="miscellaneous_summary">Miscellaneous tweaks</string>
-    <string name="powermenu_title">Power menu</string>
-    <string name="powermenu_summary">Configure the power menu</string>
-    <string name="notifications_title">Notifications</string>
+    <string name="powermenu_title">Menu zasilania</string>
+    <string name="powermenu_summary">Konfiguruj menu zasilania</string>
+    <string name="notifications_title">Powiadomienia</string>
     <string name="notifications_summary">Tweaks specific to system notifications</string>
     <!-- Lockscreen -->
-    <string name="fingerprint">Fingerprint</string>
-    <string name="lockscreen">Lockscreen</string>
+    <string name="fingerprint">Odcisk palca</string>
+    <string name="lockscreen">Ekran blokady</string>
     <string name="fingerprint_prefs_title">Fingerprint prefs</string>
     <string name="fingerprint_prefs_summary">Tweaks specific to the fingerprint scanner</string>
     <string name="lockscreen_items_title">Lockscreen items</string>
     <string name="lockscreen_items_summary">Customize the lockscreen</string>
     <string name="switch_settings_title">Misc lockscreen settings</string>
-    <string name="lockscreen_lock_icon_title">Lock icon</string>
+    <string name="lockscreen_lock_icon_title">Ikona blokady</string>
     <string name="lockscreen_lock_icon_summary">Display lock icon on the lockscreen</string>
     <!-- Show Statusbar on Lockscreen -->
-    <string name="lockscreen_status_bar_title">Status bar</string>
+    <string name="lockscreen_status_bar_title">Pasek stanu</string>
     <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
     <!-- Statusbar -->
-    <string name="statusbar_clock">Clock</string>
+    <string name="statusbar_clock">Zegar</string>
     <string name="battery_options_title">Battery options</string>
     <string name="battery_options_summary">Customize the statusbar battery</string>
-    <string name="carrier_label_title">Carrier label</string>
+    <string name="carrier_label_title">Nazwa operatora</string>
     <string name="carrier_label_summary">Customize the carrier label on the lockscreen or statusbar</string>
-    <string name="clock_options_title">Clock options</string>
-    <string name="clock_options_summary">Customize your statusbar clock</string>
+    <string name="clock_options_title">Opcje zegara</string>
+    <string name="clock_options_summary">Dostosuj zegar paska stanu</string>
     <string name="icon_manager_title">Icon manager</string>
-    <string name="icon_manager_summary">Configure the visibility of statusbar items</string>
-    <string name="quicksettings_title">Quick settings</string>
+    <string name="icon_manager_summary">Dostosuj widoczność elementów paska stanu</string>
+    <string name="quicksettings_title">Szybkie ustawienia</string>
     <string name="quicksettings_summary">Configure the layout of the quick settings area</string>
     <string name="traffic_title">Network Traffic Indicator</string>
     <string name="traffic_indicators">Traffic Indicator</string>
     <string name="traffic_summary">Show live network traffic usage on Statusbar or in QS.</string>
     <string name="switch_category">Advanced Tweaks</string>
-    <string name="battery_title">Battery</string>
-    <string name="qs">Quick Settings</string>
-    <string name="icons">Statusbar icons</string>
+    <string name="battery_title">Bateria</string>
+    <string name="qs">Szybkie Ustawienia</string>
+    <string name="icons">Ikony paska stanu</string>
     <string name="headericons">Header Icons</string>
-    <string name="UI">User Interface</string>
-    <string name="general_title">Notifications</string>
+    <string name="UI">Interfejs użytkownika</string>
+    <string name="general_title">Powiadomienia</string>
     <string name="notification_guts_kill_app_button_title">Kill app button</string>
     <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
     <!-- QS Disco -->
-    <string name="qs_tiles_title">Tiles</string>
+    <string name="qs_tiles_title">Kafelki</string>
     <string name="qs_bg_use_disco">QS tile disco</string>
     <string name="qs_bg_use_disco_summary">Make your QS Tiles colorful!</string>
     <!-- Navigation -->
-    <string name="buttons_title">Buttons</string>
-    <string name="buttons_summary">Configure volume rocker options</string>
-    <string name="navigation_options_title">Navigation</string>
-    <string name="navigation_options_summary">Configure navigation options</string>
+    <string name="buttons_title">Przyciski</string>
+    <string name="buttons_summary">Dostosuj opcje przycisków głośności</string>
+    <string name="navigation_options_title">Nawigacja</string>
+    <string name="navigation_options_summary">Dostosuj opcje nawigacji</string>
     <!-- Network traffic -->
-    <string name="network_traffic_settings_title">Network traffic monitor</string>
-    <string name="network_traffic_settings_summary">Display and customize current network traffic levels</string>
-    <string name="network_traffic_location_title">Location</string>
-    <string name="network_traffic_location_disable">Disabled</string>
-    <string name="network_traffic_location_statusbar">Statusbar</string>
-    <string name="network_traffic_location_quick_statusbar">Quick Statusbar</string>
-    <string name="network_traffic_mode_title">Display mode</string>
-    <string name="network_traffic_mode_up">Upload only</string>
-    <string name="network_traffic_mode_down">Download only</string>
-    <string name="network_traffic_mode_all">Upload and download</string>
-    <string name="network_traffic_autohide">Auto hide</string>
-    <string name="network_traffic_autohide_summary">Hide the traffic monitor when inactive</string>
+    <string name="network_traffic_settings_title">Monitor ruchu sieciowego</string>
+    <string name="network_traffic_settings_summary">Pokaż i dostosuj aktualne poziomy ruchu sieciowego</string>
+    <string name="network_traffic_location_title">Lokalizacja</string>
+    <string name="network_traffic_location_disable">Wyłączona</string>
+    <string name="network_traffic_location_statusbar">Pasek stanu</string>
+    <string name="network_traffic_location_quick_statusbar">Szybkie ustawienia</string>
+    <string name="network_traffic_mode_title">Tryb wyświetlania</string>
+    <string name="network_traffic_mode_up">Tylko wysyłanie</string>
+    <string name="network_traffic_mode_down">Tylko pobieranie</string>
+    <string name="network_traffic_mode_all">Wysyłanie oraz pobieranie</string>
+    <string name="network_traffic_autohide">Automatyczne ukrywanie</string>
+    <string name="network_traffic_autohide_summary">Ukryj monitor ruchu sieciowego, gdy sieć jest nieaktywna</string>
     <string name="network_traffic_autohide_kilobits">Kb/s</string>
     <string name="network_traffic_autohide_kilobytes">KB/s</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-    <string name="network_traffic_show_units">Show units</string>
+    <string name="network_traffic_show_units">Pokaż jednostki</string>
     <string name="network_traffic_show_units_summary">Whether to show traffic measurement units</string>
     <string name="network_traffic_units_title">Traffic measurement units</string>
-    <string name="network_traffic_units_bits">Bits per second (b/s)</string>
-    <string name="network_traffic_units_kilobits">Kilobits per second (kb/s)</string>
-    <string name="network_traffic_units_megabits">Megabits per second (Mb/s)</string>
-    <string name="network_traffic_units_bytes">Bytes per second (B/s)</string>
+    <string name="network_traffic_units_bits">Bity na sekundę (b/s)</string>
+    <string name="network_traffic_units_kilobits">Kilobity na sekundę (kb/s)</string>
+    <string name="network_traffic_units_megabits">Megabity na sekundę (Mb/s)</string>
+    <string name="network_traffic_units_bytes">Bajty na sekundę (B/s)</string>
     <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
     <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow">Ukryj strzałki</string>
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
-    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+    <string name="network_traffic_refresh_interval_title">Częstotliwość odświeżania</string>
     <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
-    <string name="unit_seconds">seconds</string>
+    <string name="unit_seconds">sekundy</string>
     <!-- Custom Categories -->
-    <string name="buttons">Buttons</string>
+    <string name="buttons">Przyciski</string>
     <!-- Volume Waker -->
-    <string name="volume_stuff_title">Volume Button</string>
-    <string name="volume_rocker_wake_title">Wake device</string>
+    <string name="volume_stuff_title">Przyciski głośności</string>
+    <string name="volume_rocker_wake_title">Obudź urządzenie</string>
     <string name="volume_rocker_wake_summary">Press volume keys to wake your device</string>
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_category">Music/Media</string>
@@ -589,9 +589,9 @@
     <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
     <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
     <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="profile_choose_app">Wybierz aplikację</string>
+    <string name="dialog_delete_title">Usuń</string>
+    <string name="dialog_delete_message">Usunąć zaznaczony element?</string>
     <!-- Doze Brightness Config -->
     <string name="doze_brightness_category">Doze Brightness Config</string>
     <string name="doze_brightness_force_title">Force brightness values</string>
@@ -600,6 +600,6 @@
     <string name="ambient_pulse_brightness_summary">Set brightness to use when notifcations are shown</string>
     <string name="ambient_doze_brightness_title">Ambient display brightness</string>
     <string name="ambient_doze_brightness_summary">Set brightness to use during ambient display on</string>
-    <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
+    <string name="lockscreen_qs_disabled_title">Wyłącz szybkie ustawienia, kiedy urządzenie jest zablokowane</string>
     <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings on secure lock screens</string>
 </resources>

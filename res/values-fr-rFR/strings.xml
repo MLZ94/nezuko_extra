@@ -16,20 +16,20 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Dirty Tweaks -->
     <string name="nezukoextra_title">Nezuko Extras</string>
-    <string name="nezukoextra_summary">Time to slay some demons.</string>
+    <string name="nezukoextra_summary">Il est temps d\'aller tuer quelques démons.</string>
     <!-- The Team -->
-    <string name="dialog_team_title">The team</string>
-    <string name="lead_title">Lead Developer</string>
-    <string name="developer_title">Developer</string>
+    <string name="dialog_team_title">L\'équipe</string>
+    <string name="lead_title">Développeur principal</string>
+    <string name="developer_title">Développeur</string>
     <string name="maintainer_title">Maintainer</string>
     <string name="contributor_title">Contributor</string>
     <string name="contributor_main_title">Maintainer/Contributor</string>
     <!-- Bottom navigation -->
-    <string name="navigation_system_title">System</string>
-    <string name="navigation_lockscreen_title">Lockscreen</string>
-    <string name="navigation_statusbar_title">Statusbar</string>
+    <string name="navigation_system_title">Système</string>
+    <string name="navigation_lockscreen_title">Écran de verrouillage</string>
+    <string name="navigation_statusbar_title">Barre d\'état</string>
     <string name="navigation_hardware_title">Hardware</string>
-    <string name="navigation_multitasking_title">Multitasking</string>
+    <string name="navigation_multitasking_title">Multitâche</string>
     <!-- Categories -->
     <!-- System -->
     <string name="miscellaneous_title">Miscellaneous</string>
@@ -39,29 +39,29 @@
     <string name="notifications_title">Notifications</string>
     <string name="notifications_summary">Tweaks specific to system notifications</string>
     <!-- Lockscreen -->
-    <string name="fingerprint">Fingerprint</string>
-    <string name="lockscreen">Lockscreen</string>
+    <string name="fingerprint">Empreinte digitale</string>
+    <string name="lockscreen">Écran de verrouillage</string>
     <string name="fingerprint_prefs_title">Fingerprint prefs</string>
     <string name="fingerprint_prefs_summary">Tweaks specific to the fingerprint scanner</string>
-    <string name="lockscreen_items_title">Lockscreen items</string>
-    <string name="lockscreen_items_summary">Customize the lockscreen</string>
+    <string name="lockscreen_items_title">Éléments de l\'écran de verrouillage</string>
+    <string name="lockscreen_items_summary">Customisation de l\'écran de verrouillage</string>
     <string name="switch_settings_title">Misc lockscreen settings</string>
     <string name="lockscreen_lock_icon_title">Lock icon</string>
     <string name="lockscreen_lock_icon_summary">Display lock icon on the lockscreen</string>
     <!-- Show Statusbar on Lockscreen -->
-    <string name="lockscreen_status_bar_title">Status bar</string>
-    <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
+    <string name="lockscreen_status_bar_title">Barre d\'état</string>
+    <string name="lockscreen_status_bar_summary">Afficher la barre d\'état sur l\'écran de verrouillage</string>
     <!-- Statusbar -->
-    <string name="statusbar_clock">Clock</string>
-    <string name="battery_options_title">Battery options</string>
+    <string name="statusbar_clock">Horloge</string>
+    <string name="battery_options_title">Options de la batterie</string>
     <string name="battery_options_summary">Customize the statusbar battery</string>
     <string name="carrier_label_title">Carrier label</string>
     <string name="carrier_label_summary">Customize the carrier label on the lockscreen or statusbar</string>
-    <string name="clock_options_title">Clock options</string>
+    <string name="clock_options_title">Options de l\'horloge</string>
     <string name="clock_options_summary">Customize your statusbar clock</string>
     <string name="icon_manager_title">Icon manager</string>
     <string name="icon_manager_summary">Configure the visibility of statusbar items</string>
-    <string name="quicksettings_title">Quick settings</string>
+    <string name="quicksettings_title">Paramètres rapide</string>
     <string name="quicksettings_summary">Configure the layout of the quick settings area</string>
     <string name="traffic_title">Network Traffic Indicator</string>
     <string name="traffic_indicators">Traffic Indicator</string>
@@ -71,7 +71,7 @@
     <string name="qs">Quick Settings</string>
     <string name="icons">Statusbar icons</string>
     <string name="headericons">Header Icons</string>
-    <string name="UI">User Interface</string>
+    <string name="UI">Interface utilisateur</string>
     <string name="general_title">Notifications</string>
     <string name="notification_guts_kill_app_button_title">Kill app button</string>
     <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
@@ -100,7 +100,7 @@
     <string name="network_traffic_autohide_kilobits">Kb/s</string>
     <string name="network_traffic_autohide_kilobytes">KB/s</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-    <string name="network_traffic_show_units">Show units</string>
+    <string name="network_traffic_show_units">Afficher les unités</string>
     <string name="network_traffic_show_units_summary">Whether to show traffic measurement units</string>
     <string name="network_traffic_units_title">Traffic measurement units</string>
     <string name="network_traffic_units_bits">Bits per second (b/s)</string>
@@ -109,15 +109,15 @@
     <string name="network_traffic_units_bytes">Bytes per second (B/s)</string>
     <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
     <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow">Cacher les flèches</string>
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
-    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+    <string name="network_traffic_refresh_interval_title">Intervalle de rafraîchissement</string>
     <string name="network_traffic_refresh_interval_summary">Duration after which speed is remeasured</string>
-    <string name="unit_seconds">seconds</string>
+    <string name="unit_seconds">secondes</string>
     <!-- Custom Categories -->
-    <string name="buttons">Buttons</string>
+    <string name="buttons">Boutons</string>
     <!-- Volume Waker -->
-    <string name="volume_stuff_title">Volume Button</string>
+    <string name="volume_stuff_title">Bouton du volume</string>
     <string name="volume_rocker_wake_title">Wake device</string>
     <string name="volume_rocker_wake_summary">Press volume keys to wake your device</string>
     <!-- Lock screen cover art -->
@@ -179,13 +179,13 @@
     <string name="prebuilt_accents_title">Accent colours</string>
     <string name="prebuilt_accents_summary">Choose an accent to apply system-wide</string>
     <string name="themes_preview_button_text">ShapeShift</string>
-    <string name="preview_color_select_text">SELECT COLOUR</string>
-    <string name="preview_color_selected_accent">Default</string>
+    <string name="preview_color_select_text">CHOISIR LA COULEUR</string>
+    <string name="preview_color_selected_accent">Défaut</string>
     <string name="tuner_title">Statusbar Icon Tuner</string>
     <string name="tuner_summary">Control visibility of status bar icons</string>
     <!-- Accent color picker -->
     <string name="accent_color_title">RGB accent color picker</string>
-    <string name="default_string">Default</string>
+    <string name="default_string">Défaut</string>
     <string name="themer_title">Themer</string>
     <!-- QS tint -->
     <string name="qs_bg_use_new_tint">Tint QS tiles using accent color</string>
@@ -207,11 +207,11 @@
     <string name="custom_header_title">Custom header</string>
     <string name="daylight_header_pack_title">Header image collection</string>
     <string name="daylight_header_provider_title">Image collection</string>
-    <string name="file_header_provider_title">Custom image</string>
-    <string name="file_header_select_summary">Select custom image</string>
-    <string name="file_header_select_title">Select image</string>
-    <string name="header_provider_disabled">Disabled</string>
-    <string name="static_header_provider_title">Static image</string>
+    <string name="file_header_provider_title">Image customisée</string>
+    <string name="file_header_select_summary">Choisir une image customisée</string>
+    <string name="file_header_select_title">Choisir l\'image</string>
+    <string name="header_provider_disabled">Désactivé</string>
+    <string name="static_header_provider_title">Image statique</string>
     <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
     <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
     <string name="unit_percent">\u0025</string>
@@ -236,7 +236,7 @@
     <string name="theme_type_solarized_dark">Solarized dark</string>
     <string name="theme_type_baked_green">Baked Green</string>
     <string name="theme_type_choco_x">Choco X</string>
-    <string name="theme_type_dark_grey">Dark Grey</string>
+    <string name="theme_type_dark_grey">Gris sombre</string>
     <string name="theme_type_du_pitchblack">Pitch black</string>
     <string name="theme_type_material_ocean">Material Ocean</string>
     <string name="theme_type_xtended_clear">Xtended Clear</string>
@@ -246,25 +246,25 @@
     <string name="gvisual_title">G-Visual Mods</string>
     <string name="rounded_ui_title">Rounded corner</string>
     <string name="rounded_ui_dialog_title">Select rounded corner model</string>
-    <string name="rounded_style_default">Default</string>
+    <string name="rounded_style_default">Défaut</string>
     <string name="rounded_style_rectangle">Rectangle</string>
     <string name="rounded_style_large">Large</string>
-    <string name="rounded_style_medium">Medium</string>
+    <string name="rounded_style_medium">Médium</string>
     <string name="statusbar_height_title">Statusbar height</string>
     <string name="statusbar_height_dialog_title">Select statusbar height model</string>
-    <string name="sb_height_default">Default</string>
-    <string name="sb_height_medium">Medium</string>
+    <string name="sb_height_default">Défaut</string>
+    <string name="sb_height_medium">Médium</string>
     <string name="sb_height_large">Large</string>
-    <string name="sb_height_extralarge">Extra Large</string>
+    <string name="sb_height_extralarge">Extra large</string>
     <!-- QS Brightness position -->
     <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
     <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom quick settings</string>
-    <string name="navbar_default">Default</string>
+    <string name="navbar_default">Défaut</string>
     <string name="navbar_orchid">Orchid</string>
-    <string name="navbar_red">Red</string>
-    <string name="navbar_purp">Purple</string>
+    <string name="navbar_red">Rouge</string>
+    <string name="navbar_purp">Violet</string>
     <string name="navbar_color_title">Navbar Colors</string>
-    <string name="navbar_color_dialog_title">Select color</string>
+    <string name="navbar_color_dialog_title">Choisir la couleur</string>
     <!-- QS rows and columns -->
     <string name="qs_column_rows_settings_title">QS panel settings</string>
     <string name="qs_columns_rows_category_title">QS columns and rows</string>
@@ -283,7 +283,7 @@
     <string name="volume_steps_ring_title">Volume steps: Ringer</string>
     <string name="volume_steps_system_title">Volume steps: System</string>
     <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
-    <string name="volume_steps_reset">Reset</string>
+    <string name="volume_steps_reset">Réinitialiser</string>
     <string name="volume_steps_60">60</string>
     <string name="volume_steps_45">45</string>
     <string name="volume_steps_30">30</string>

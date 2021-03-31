@@ -15,34 +15,34 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Dirty Tweaks -->
-    <string name="nezukoextra_title">Nezuko Extras</string>
-    <string name="nezukoextra_summary">Time to slay some demons.</string>
+    <string name="nezukoextra_title">Nezuko Extrák</string>
+    <string name="nezukoextra_summary">Ideje megölni néhány démont.</string>
     <!-- The Team -->
-    <string name="dialog_team_title">The team</string>
-    <string name="lead_title">Lead Developer</string>
-    <string name="developer_title">Developer</string>
-    <string name="maintainer_title">Maintainer</string>
-    <string name="contributor_title">Contributor</string>
-    <string name="contributor_main_title">Maintainer/Contributor</string>
+    <string name="dialog_team_title">A csapat</string>
+    <string name="lead_title">Vezető fejlesztő</string>
+    <string name="developer_title">Fejlesztő</string>
+    <string name="maintainer_title">Fenntartó</string>
+    <string name="contributor_title">Hozzájáruló</string>
+    <string name="contributor_main_title">Fenntartó / közreműködő</string>
     <!-- Bottom navigation -->
-    <string name="navigation_system_title">System</string>
-    <string name="navigation_lockscreen_title">Lockscreen</string>
-    <string name="navigation_statusbar_title">Statusbar</string>
-    <string name="navigation_hardware_title">Hardware</string>
-    <string name="navigation_multitasking_title">Multitasking</string>
+    <string name="navigation_system_title">Rendszer</string>
+    <string name="navigation_lockscreen_title">Zárképernyő</string>
+    <string name="navigation_statusbar_title">Állapotsor</string>
+    <string name="navigation_hardware_title">Hardver</string>
+    <string name="navigation_multitasking_title">Többfeladatos</string>
     <!-- Categories -->
     <!-- System -->
-    <string name="miscellaneous_title">Miscellaneous</string>
-    <string name="miscellaneous_summary">Miscellaneous tweaks</string>
-    <string name="powermenu_title">Power menu</string>
-    <string name="powermenu_summary">Configure the power menu</string>
-    <string name="notifications_title">Notifications</string>
-    <string name="notifications_summary">Tweaks specific to system notifications</string>
+    <string name="miscellaneous_title">Egyéb</string>
+    <string name="miscellaneous_summary">Egyéb trükkök</string>
+    <string name="powermenu_title">Power menü</string>
+    <string name="powermenu_summary">Power menü konfiguráció</string>
+    <string name="notifications_title">Értesítések</string>
+    <string name="notifications_summary">A rendszer értesítésekre jellemző trükkök</string>
     <!-- Lockscreen -->
-    <string name="fingerprint">Fingerprint</string>
-    <string name="lockscreen">Lockscreen</string>
-    <string name="fingerprint_prefs_title">Fingerprint prefs</string>
-    <string name="fingerprint_prefs_summary">Tweaks specific to the fingerprint scanner</string>
+    <string name="fingerprint">Ujjlenyomatolvasó</string>
+    <string name="lockscreen">Zárképernyő</string>
+    <string name="fingerprint_prefs_title">Ujjlenyomat inkább</string>
+    <string name="fingerprint_prefs_summary">Az ujjlenyomat-leolvasóra jellemző módosítások</string>
     <string name="lockscreen_items_title">Lockscreen items</string>
     <string name="lockscreen_items_summary">Customize the lockscreen</string>
     <string name="switch_settings_title">Misc lockscreen settings</string>

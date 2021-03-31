@@ -15,15 +15,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Dirty Tweaks -->
-    <string name="nezukoextra_title">Nezuko Extras</string>
+    <string name="nezukoextra_title">Nezuko 附加</string>
     <string name="nezukoextra_summary">Time to slay some demons.</string>
     <!-- The Team -->
-    <string name="dialog_team_title">The team</string>
-    <string name="lead_title">Lead Developer</string>
-    <string name="developer_title">Developer</string>
-    <string name="maintainer_title">Maintainer</string>
-    <string name="contributor_title">Contributor</string>
-    <string name="contributor_main_title">Maintainer/Contributor</string>
+    <string name="dialog_team_title">团队</string>
+    <string name="lead_title">首要开发者</string>
+    <string name="developer_title">开发者</string>
+    <string name="maintainer_title">维护者</string>
+    <string name="contributor_title">贡献者</string>
+    <string name="contributor_main_title">维护者/贡献者</string>
     <!-- Bottom navigation -->
     <string name="navigation_system_title">System</string>
     <string name="navigation_lockscreen_title">Lockscreen</string>
@@ -570,11 +570,11 @@
     <string name="ambient_notification_light_hide_aod_summary">Hide all other display elements from always on</string>
     <string name="ambient_notification_light_timeout_title">Timeout for light pulse</string>
     <string name="entry_infinite">Infinite</string>
-    <string name="entry_five_minute">5 minutes</string>
-    <string name="entry_ten_minute">10 minutes</string>
-    <string name="entry_thirty_minute">30 minutes</string>
-    <string name="entry_sixty_minute">60 minutes</string>
-    <string name="entry_fifteen_minute">15 minutes</string>
+    <string name="entry_five_minute">5分钟</string>
+    <string name="entry_ten_minute">10分钟</string>
+    <string name="entry_thirty_minute">30分钟</string>
+    <string name="entry_sixty_minute">60分钟</string>
+    <string name="entry_fifteen_minute">15分钟</string>
     <string name="ambient_notification_light_color_mode_title">Light pulse color</string>
     <string name="ambient_notification_light_color_mode_automatic">Notification color</string>
     <string name="ambient_notification_light_color_mode_accent">System accent color</string>
@@ -589,9 +589,9 @@
     <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
     <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
     <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="profile_choose_app">选择程序</string>
+    <string name="dialog_delete_title">删除</string>
+    <string name="dialog_delete_message">移除所选项</string>
     <!-- Doze Brightness Config -->
     <string name="doze_brightness_category">Doze Brightness Config</string>
     <string name="doze_brightness_force_title">Force brightness values</string>
