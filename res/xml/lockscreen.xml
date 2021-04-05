@@ -35,11 +35,6 @@
         android:summary="@string/lockscreen_qs_disabled_summary"
         android:defaultValue="false" />
 
-    <Preference
-        android:key="fod_category"
-        android:title="@string/fod_category_title"
-        android:fragment="com.nezuko.extra.fragments.FOD" />
-
 	     <com.nezuko.extra.preferences.SystemSettingSwitchPreference
 	         android:key="double_tap_sleep_lockscreen"
 	         android:title="@string/double_tap_sleep_lockscreen_title"
@@ -47,6 +42,17 @@
 	         android:defaultValue="true" />
 
 </PreferenceCategory>
+
+    <PreferenceCategory 
+        android:key="fod_icon_picker"
+        android:title="@string/fod_category_title">
+
+    <Preference
+        android:key="fod_category"
+        android:title="@string/fod_icon_picker"
+        android:fragment="com.nezuko.extra.fragments.FOD" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:title="@string/doze_brightness_category">

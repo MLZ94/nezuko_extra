@@ -602,6 +602,7 @@
     <string name="header_dialog_title">Select size</string>
 
     <string name="fod_category_title">FOD customizations</string>
+    <string name="fod_icon_picker">FOD icon picker</string>
 
     <!-- FOD animations -->
     <string name="fod_recog_animation">FOD recognizing animation</string>

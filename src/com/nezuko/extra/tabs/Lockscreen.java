@@ -36,7 +36,7 @@ import androidx.preference.SwitchPreference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceFragment;
-
+import com.android.internal.util.custom.fod.FodUtils;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
@@ -48,11 +48,13 @@ public class Lockscreen extends SettingsPreferenceFragment
     private static final String KEY_PULSE_BRIGHTNESS = "ambient_pulse_brightness";
     private static final String KEY_DOZE_BRIGHTNESS = "ambient_doze_brightness";
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker";
 
     private CustomSeekBarPreference mPulseBrightness;
     private CustomSeekBarPreference mDozeBrightness;
     private FingerprintManager mFingerprintManager;
     private SwitchPreference mFingerprintVib;
+    private PreferenceCategory mFODIconPickerCategory;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -65,6 +67,8 @@ public class Lockscreen extends SettingsPreferenceFragment
 
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mFingerprintVib = (SwitchPreference) findPreference(FINGERPRINT_VIB);
+        mFODIconPickerCategory = findPreference(FOD_ICON_PICKER_CATEGORY);
+
         if (!mFingerprintManager.isHardwareDetected()){
             prefScreen.removePreference(mFingerprintVib);
         } else {
@@ -72,7 +76,9 @@ public class Lockscreen extends SettingsPreferenceFragment
                     Settings.System.FINGERPRINT_SUCCESS_VIB, 1) == 1));
             mFingerprintVib.setOnPreferenceChangeListener(this);
         }
-
+        if (mFODIconPickerCategory != null && !FodUtils.hasFodSupport(getContext())) {
+            prefScreen.removePreference(mFODIconPickerCategory);
+        }
         int defaultDoze = getResources().getInteger(
                 com.android.internal.R.integer.config_screenBrightnessDoze);
         int defaultPulse = getResources().getInteger(
