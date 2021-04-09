@@ -17,6 +17,19 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
      <PreferenceCategory
+     android:key="ss_category"
+     android:title="@string/ss">
+
+
+    </PreferenceCategory>
+
+	    <com.nezuko.extra.preferences.SystemSettingSwitchPreference
+            android:key="click_partial_screenshot"
+            android:title="@string/click_partial_screenshot_title"
+            android:summary="@string/click_partial_screenshot_summary"
+            android:defaultValue="false" />
+
+     <PreferenceCategory
      android:key="power_button_category"
      android:title="@string/power_button_category_title">
 
