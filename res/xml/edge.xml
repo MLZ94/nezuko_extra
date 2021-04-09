@@ -28,6 +28,12 @@
             android:summary="@string/pulse_ambient_light_summary"
             android:defaultValue="false" />
 
+    <com.nezuko.extra.preferences.SystemSettingSwitchPreference
+        android:key="ambient_light_pulse_for_all"
+        android:title="@string/horizon_light_show_always_title"
+        android:summary="@string/horizon_light_show_always_summary"
+        android:defaultValue="false" />
+
         <com.nezuko.extra.preferences.SystemSettingSwitchPreference
             android:key="ambient_notification_light_enabled"
             android:title="@string/ambient_notification_light_enabled_title"
