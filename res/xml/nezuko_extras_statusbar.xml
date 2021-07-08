@@ -24,6 +24,11 @@
             <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
         </PreferenceScreen>
 
+	<Preference
+            android:key="statusbar_battery"
+            android:title="@string/battery_percent_title"
+            android:summary="@string/battery_percent_summary"
+            android:fragment="com.nezuko.extras.fragments.StatusbarBatterySettings"/>
 <PreferenceCategory
             android:title="@string/statusbar_gestures">
 	    <com.nezuko.support.preferences.SystemSettingSwitchPreference
