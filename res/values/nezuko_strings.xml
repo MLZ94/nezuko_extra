@@ -212,6 +212,7 @@
     <string name="volte_icon_miui">MIUI 11</string>
     <string name="volte_icon_emui">EMUI</string>
     <string name="volte_icon_moto">VoLTE Motorola Icon</string>
+    <string name="volte_icon_vivo">VoLTE Vivo Icon</string>
 
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">VoWiFi icon</string>
@@ -229,6 +230,7 @@
     <string name="vowifi_icon_simple1">Simple1 Icon</string>
     <string name="vowifi_icon_simple2">Simple2 Icon</string>
     <string name="vowifi_icon_simple3">Simple3 Icon</string>
+    <string name="vowifi_icon_vivo">Vivo Icon</string>
 
     <string-array name="themer_icon_entries" translatable="false">
         <item>@string/icon_normal</item>

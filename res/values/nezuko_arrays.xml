@@ -90,6 +90,7 @@
 
     <!-- VoLTE Icon Type -->
     <string-array name="volte_icon_type_entries" translatable="false">
+        <item>@string/volte_icon_vivo</item>
         <item>@string/volte_icon_moto</item>
         <item>@string/volte_icon_oos11</item>
 	    <item>@string/volte_icon_emui</item>    
@@ -103,6 +104,7 @@
     </string-array>
 
     <string-array name="volte_icon_type_values" translatable="false">
+        <item>10</item>
         <item>9</item>
         <item>8</item>
     	<item>7</item>
@@ -139,6 +141,7 @@
         <item>@string/vowifi_icon_simple2</item>
         <item>@string/vowifi_icon_simple3</item>
         <item>@string/vowifi_icon_oos11</item>
+        <item>@string/vowifi_icon_vivo</item>
     </string-array>
 
     <string-array name="vowifi_icon_style_values" translatable="false">
@@ -151,6 +154,7 @@
         <item>6</item>
         <item>7</item>
         <item>8</item>
+        <item>9</item>
     </string-array>
 
 
