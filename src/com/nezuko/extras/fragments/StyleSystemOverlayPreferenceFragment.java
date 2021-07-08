@@ -68,6 +68,9 @@ public class StyleSystemOverlayPreferenceFragment extends DashboardFragment impl
     private IOverlayManager mOverlayManager;
     private PackageManager mPackageManager;
     private static final String OVERLAY_EXTRAS_ICONS = "overlay_extras_icons";
+    private static final String CLEAR_ALL_ICON_STYLE  = "clear_all_icon_style";
+
+    private SystemSettingListPreference mClearAll;
 
     private SystemSettingListPreference mExtraIcons;
     private Handler mHandler;
@@ -80,7 +83,7 @@ public class StyleSystemOverlayPreferenceFragment extends DashboardFragment impl
         mOverlayManager = IOverlayManager.Stub.asInterface(
                 ServiceManager.getService(Context.OVERLAY_SERVICE));
         mExtraIcons = (SystemSettingListPreference) findPreference(OVERLAY_EXTRAS_ICONS);
-
+        mClearAll = (SystemSettingListPreference) findPreference(CLEAR_ALL_ICON_STYLE);
         mCustomSettingsObserver.observe();
     }
 
@@ -97,12 +100,17 @@ public class StyleSystemOverlayPreferenceFragment extends DashboardFragment impl
             resolver.registerContentObserver(Settings.System.getUriFor(
                     Settings.System.OVERLAY_EXTRAS_ICONS),
                     false, this, UserHandle.USER_ALL);
+            resolver.registerContentObserver(Settings.System.getUriFor(
+                    Settings.System.CLEAR_ALL_ICON_STYLE  ),
+                    false, this, UserHandle.USER_ALL);
         }
 
         @Override
         public void onChange(boolean selfChange, Uri uri) {
             if (uri.equals(Settings.System.getUriFor(Settings.System.OVERLAY_EXTRAS_ICONS))) {
                 updateExtraIcons();
+            } else if (uri.equals(Settings.System.getUriFor(Settings.System.CLEAR_ALL_ICON_STYLE))) {
+                updateClearAll();
             }
         }
     }
@@ -110,6 +118,9 @@ public class StyleSystemOverlayPreferenceFragment extends DashboardFragment impl
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mExtraIcons) {
+            mCustomSettingsObserver.observe();
+            return true;
+        } else if (preference == mClearAll) {
             mCustomSettingsObserver.observe();
             return true;
         }
@@ -157,6 +168,51 @@ public class StyleSystemOverlayPreferenceFragment extends DashboardFragment impl
             e.printStackTrace();
         }
     }
+
+    private void updateClearAll() {
+        ContentResolver resolver = getActivity().getContentResolver();
+        boolean ClearAllDefault = Settings.System.getIntForUser(getContext().getContentResolver(),
+                Settings.System.CLEAR_ALL_ICON_STYLE , 0, UserHandle.USER_CURRENT) == 0;
+        boolean ClearAllOOS = Settings.System.getIntForUser(getContext().getContentResolver(),
+                Settings.System.CLEAR_ALL_ICON_STYLE , 0, UserHandle.USER_CURRENT) == 1;
+
+        if (ClearAllDefault) {
+            setDefaultClearAll(mOverlayManager);
+        } else if (ClearAllOOS) {
+            enableClearAll(mOverlayManager, "com.android.theme.systemui_clearall_oos");
+        }
+    }
+
+    public static void setDefaultClearAll(IOverlayManager overlayManager) {
+        for (int i = 0; i < CLEAR_ALL_ICONS.length; i++) {
+            String icons = CLEAR_ALL_ICONS[i];
+            try {
+                overlayManager.setEnabled(icons, false, USER_SYSTEM);
+            } catch (RemoteException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static void enableClearAll(IOverlayManager overlayManager, String overlayName) {
+        try {
+            for (int i = 0; i < CLEAR_ALL_ICONS.length; i++) {
+                String icons = CLEAR_ALL_ICONS[i];
+                try {
+                    overlayManager.setEnabled(icons, false, USER_SYSTEM);
+                } catch (RemoteException e) {
+                    e.printStackTrace();
+                }
+            }
+            overlayManager.setEnabled(overlayName, true, USER_SYSTEM);
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static final String[] CLEAR_ALL_ICONS = {
+        "com.android.theme.systemui_clearall_oos"
+    };
 
     public static final String[] DASHBOARD_ICONS = {
         "com.android.theme.nezez.tint"

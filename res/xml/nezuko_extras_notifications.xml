@@ -18,4 +18,12 @@
 	android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+        <com.nezuko.support.preferences.SystemSettingListPreference
+            android:key="clear_all_icon_style"
+            settings:iconSpaceReserved="false"
+            android:title="@string/clearall_icon_title"
+            android:entries="@array/clearall_icon_entries"
+	        android:entryValues="@array/clearall_icon_values"
+            android:defaultValue="0" />
+
 </PreferenceScreen>
