@@ -318,4 +318,8 @@
 
     <!-- QS tile title visibility -->
     <string name="qs_tile_title_visibility_title">Show tiles title</string>
+
+    <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
+    <string name="lockscreen_hide_shortcuts_title">Hide Bottom Shortcuts</string>
+    <string name="lockscreen_hide_shortcuts_summary">Hide Left-Right Shortcuts on secure lock screens</string>
 </resources>
